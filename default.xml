@@ -4,7 +4,7 @@
   <remote name="aosp"
            fetch="http://android.googlesource.com/" />
   
-  <remote name="DreamsTuna"
+  <remote name="Dreams-Lp"
            fetch="https://github.com/DreamsTuna/" />
   
   <remote name="manumanfred"
