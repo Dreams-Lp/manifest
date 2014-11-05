@@ -2,19 +2,10 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="http://android.googlesource.com/" />
+           fetch="https://android.googlesource.com/" />
 
  <remote name="Dreams-Lp"
            fetch="https://github.com/DreamsTuna/" />
-
- <remote name="manumanfred"
-           fetch="https://github.com/manumanfred/" />
-
- <remote name="CyanogenMod"
-           fetch="https://github.com/CyanogenMod/" />
-
- <remote name="AOSPA"
-           fetch="https://github.com/AOSPA/" />
 
   <default revision="refs/tags/android-5.0.0_r2"
            remote="aosp"
