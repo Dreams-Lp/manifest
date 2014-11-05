@@ -5,7 +5,7 @@
            fetch="https://android.googlesource.com/" />
 
  <remote name="Dreams-Lp"
-           fetch="https://github.com/DreamsTuna/" />
+           fetch="https://github.com/Dreams-Lp/" />
 
   <default revision="refs/tags/android-5.0.0_r2"
            remote="aosp"
