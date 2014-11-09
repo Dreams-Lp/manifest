@@ -16,9 +16,6 @@
  <remote name="CyanogenMod"
            fetch="https://github.com/CyanogenMod/" />
 
- <remote name="AOSPA"
-           fetch="https://github.com/AOSPA/" />
-
   <default revision="refs/tags/android-5.0.0_r2"
            remote="aosp"
            sync-c="true"
@@ -493,7 +490,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   <project path="system/core" name="platform/system/core" groups="pdk" />
-  <project path="system/extras" name="system_extras" revision="lollipop-release remote="Dreams-Lp" />
+  <project path="system/extras" name="system_extras" revision="lollipop-release" remote="Dreams-Lp" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
