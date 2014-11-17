@@ -491,7 +491,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
+  <project path="system/core" name="system_core" revision="lollipop-release" groups="pdk" remote="Dreams-Lp" />
   <project path="system/extras" name="system_extras" revision="lollipop-release" remote="Dreams-Lp" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
