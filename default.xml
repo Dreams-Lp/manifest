@@ -57,7 +57,7 @@
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/tuna" name="device-samsung-tuna" revision="lollipop-release" remote="Dreams-Lp" />
   <project path="device/samsung/maguro" name="device-samsung-maguro" revision="Lollipop" remote="Dreams-Lp"/>
-  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" revision="lollipop" remote="DreamsTuna" />
+  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" revision="Lollipop" remote="DreamsTuna" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
