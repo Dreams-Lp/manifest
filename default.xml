@@ -492,7 +492,7 @@
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
   <project path="system/core" name="system_core" revision="lollipop-release" groups="pdk" remote="Dreams-Lp" />
-  <project path="system/extras" name="system_extras" revision="lollipop-release" remote="Dreams-Lp" />
+  <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
