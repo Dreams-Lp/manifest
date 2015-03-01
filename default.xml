@@ -4,9 +4,6 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
 
- <remote name="Ziyann"
-           fetch="https://github.com/Ziyann/" />
-
  <remote name="Dreams-Lp"
            fetch="https://github.com/Dreams-Lp/" />
 
@@ -58,13 +55,9 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-<!--  <project path="device/samsung/tuna" name="device-samsung-tuna" revision="lollipop-release" remote="Dreams-Lp" />
+  <project path="device/samsung/tuna" name="device-samsung-tuna" revision="lollipop-release" remote="Dreams-Lp" />
   <project path="device/samsung/maguro" name="device-samsung-maguro" revision="Lollipop" remote="Dreams-Lp"/>
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" revision="Lp-5.0" remote="DreamsTuna" />
--->
-  <project path="device/samsung/tuna" name="android_device_samsung_tuna" revision="cm-12.0" remote="Ziyann" />
-  <project path="device/samsung/maguro" name="android_device_samsung_maguro" revision="cm-12.0" remote="Ziyann" />
-  <project path="kernel/samsung/tuna" name="omap" revision="cm-12.0" remote="Ziyann" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
