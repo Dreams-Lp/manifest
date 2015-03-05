@@ -56,7 +56,7 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/tuna" name="device-samsung-tuna" revision="lollipop-release" remote="Dreams-Lp" />
-  <project path="device/samsung/maguro" name="device-samsung-maguro" revision="Lollipop" remote="Dreams-Lp"/>
+  <project path="device/samsung/maguro" name="device-samsung-maguro" revision="Lollipop" remote="Dreams-Lp" />
   <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" revision="Lp-5.0" remote="DreamsTuna" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -80,7 +80,7 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="platform_external_chromium-org" revision="lollipop-release" remote="Dreams-Lp"/>
+  <project path="external/chromium_org" name="platform_external_chromium-org" revision="lollipop-release" remote="Dreams-Lp" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -194,7 +194,7 @@
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
   <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
-  <project path="external/libsepol" name="platform_external_libsepol" revision="lollipop-release" groups="pdk" remote="Dreams-Lp" />
+  <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk-cw-fs" />
@@ -337,7 +337,7 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/invensense" name="platform_hardware_invensense" revision="lollipop-release" groups="invensense" remote="Dreams-Lp" />
-  <project path="hardware/libhardware" name="latform_hardware_libhardware" revision="lollipop-release" groups="pdk" remote="Dreams-Lp" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" revision="lollipop-release" groups="pdk" remote="Dreams-Lp" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
