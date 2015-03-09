@@ -283,7 +283,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/av" name="platform_frameworks_av" revision="lollipop-release" groups="pdk" remote="Dreams-Lp" />
-  <project path="frameworks/base" name="platform_frameworks_base" revision="lollipop-release" groups="pdk-cw-fs" remote="Dreams-Lp" />
+  <project path="frameworks/base" name="platform_frameworks_base" revision="lollipop-release" groups="pdk-cw-fs" remote="manumanfred" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -399,7 +399,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" revision="lollipop-release" remote="Dreams-Lp" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" revision="lollipop-release" remote="manumanfred" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
