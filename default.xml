@@ -7,6 +7,9 @@
  <remote name="Dreams-Lp"
            fetch="https://github.com/Dreams-Lp/" />
 
+ <remote name="DsLp-test"
+           fetch="https://github.com/DsLp-test/" />
+
  <remote name="DreamsTuna"
            fetch="https://github.com/DreamsTuna/" />
 
@@ -16,18 +19,18 @@
  <remote name="CyanogenMod"
            fetch="https://github.com/CyanogenMod/" />
 
-  <default revision="refs/tags/android-5.0.2_r1"
+  <default revision="refs/tags/android-5.1.0_r1"
            remote="aosp"
            sync-c="true"
            sync-f="true"
            sync-j="4" />
 
-  <project path="build" name="Ds_platform_build" revision="lollipop-release" groups="pdk,tradefed" remote="manumanfred" >
+  <project path="build" name="platform_build" revision="lollipop-mr1-release" groups="pdk,tradefed" remote="DsLp-test" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform_bionic" revision="lollipop-release" groups="pdk" remote="Dreams-Lp" />
+  <project path="bionic" name="platform_bionic" revision="lollipop-mr1-release" groups="pdk" remote="DsLp-test" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
@@ -55,13 +58,13 @@
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/tuna" name="device-samsung-tuna" revision="lollipop-release" remote="Dreams-Lp" />
-  <project path="device/samsung/maguro" name="device-samsung-maguro" revision="Lollipop" remote="Dreams-Lp" />
-  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" revision="Lp-5.0" remote="DreamsTuna" />
+  <project path="device/samsung/tuna" name="device-samsung-tuna" revision="lollipop-mr1-release" remote="Dreams-Lp" />
+  <project path="device/samsung/maguro" name="device-samsung-maguro" revision="lollipop-mr1-release" remote="Dreams-Lp" />
+  <project path="kernel/samsung/tuna" name="android_kernel_samsung_tuna" revision="Lp-5.1" remote="DreamsTuna" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
-  <project path="external/android-visualizer" name="android_external_android-visualizer" revision="cm-12.0" remote="Dreams-Lp" />
+  <project path="external/android-visualizer" name="android_external_android-visualizer" revision="cm-12.0" remote="DsLp-test" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,tradefed" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" groups="pdk-cw-fs" />
@@ -71,7 +74,7 @@
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" />
-  <project path="external/bluetooth/bluedroid" name="platform_external_bluetooth_bluedroid" revision="lollipop-release" groups="pdk" remote="Dreams-Lp" />
+  <project path="external/bluetooth/bluedroid" name="platform_external_bluetooth_bluedroid" revision="lollipop-mr1-release" groups="pdk" remote="DsLp-test" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/busybox" name="android_external_busybox" revision="cm-12.0" remote="CyanogenMod" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
@@ -80,7 +83,7 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="platform_external_chromium-org" revision="lollipop-release" remote="Dreams-Lp" />
+  <project path="external/chromium_org" name="platform/external/chromium_org" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -275,15 +278,15 @@
   <project path="external/vixl" name="platform/external/vixl" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant-8" revision="lollipop-release" groups="pdk" remote="Dreams-Lp" />
+  <project path="external/wpa_supplicant_8" name="platform_external_wpa_supplicant-8" revision="lollipop-mr1-release" groups="pdk" remote="DsLp-test" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
-  <project path="frameworks/av" name="platform_frameworks_av" revision="lollipop-release" groups="pdk" remote="Dreams-Lp" />
-  <project path="frameworks/base" name="platform_frameworks_base" revision="lollipop-release" groups="pdk-cw-fs" remote="manumanfred" />
+  <project path="frameworks/av" name="platform_frameworks_av" revision="lollipop-mr1-release" groups="pdk" remote="DsLp-test" />
+  <project path="frameworks/base" name="platform_frameworks_base" revision="lollipop-mr1-release" groups="pdk-cw-fs" remote="DsLp-test" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
@@ -292,7 +295,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="platform_frameworks_native" revision="lollipop-release" groups="pdk" remote="Dreams-Lp" />
+  <project path="frameworks/native" name="platform_frameworks_native" revision="lollipop-mr1-release" groups="pdk" remote="DsLp-test" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -309,7 +312,7 @@
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" revision="lollipop-release" groups="pdk" remote="Dreams-Lp" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" revision="lollipop-mr1-release" groups="pdk" remote="DsLp-test" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -336,8 +339,8 @@
   <project path="hardware/intel/img/libdrm" name="platform/hardware/intel/img/libdrm" groups="intel" />
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
-  <project path="hardware/invensense" name="platform_hardware_invensense" revision="lollipop-release" groups="invensense" remote="Dreams-Lp" />
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" revision="lollipop-release" groups="pdk" remote="Dreams-Lp" />
+  <project path="hardware/invensense" name="platform_hardware_invensense" revision="lollipop-mr1-release" groups="invensense" remote="DsLp-test" />
+  <project path="hardware/libhardware" name="platform_hardware_libhardware" revision="lollipop-mr1-release" groups="pdk" remote="DsLp-test" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
@@ -355,18 +358,18 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
-  <project path="hardware/ril" name="platform_hardware_ril" revision="lollipop-release" groups="pdk" remote="Dreams-Lp" />
+  <project path="hardware/ril" name="platform_hardware_ril" revision="lollipop-mr1-release" groups="pdk" remote="DsLp-test" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
-  <project path="hardware/ti/omap4xxx" name="platform_hardware_ti_omap4xxx" revision="lollipop-release" remote="Dreams-Lp" />
+  <project path="hardware/ti/omap4xxx" name="platform_hardware_ti_omap4xxx" revision="lollipop-mr1-release" remote="DsLp-test" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/AudioFX" name="android_packages_apps_AudioFX" revision="cm-12.0" remote="CyanogenMod" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" revision="lollipop-release" groups="pdk-cw-fs" remote="Dreams-Lp" />
-  <project path="packages/apps/Browser" name="platform_packages_apps_Browser" revision="lollipop-release" remote="Dreams-Lp" />
+  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" revision="lollipop-mr1-release" groups="pdk-cw-fs" remote="DsLp-test" />
+  <project path="packages/apps/Browser" name="platform_packages_apps_Browser" revision="lollipop-mr1-release" remote="DsLp-test" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
@@ -399,7 +402,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" revision="lollipop-release" remote="manumanfred" />
+  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -490,7 +493,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk,tradefed" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs" />
-  <project path="system/core" name="system_core" revision="lollipop-release" groups="pdk" remote="Dreams-Lp" />
+  <project path="system/core" name="system_core" revision="lollipop-mr1-release" groups="pdk" remote="DsLp-test" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
