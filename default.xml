@@ -25,7 +25,7 @@
            sync-f="true"
            sync-j="4" />
 
-  <project path="build" name="platform_build" revision="lollipop-mr1-release" groups="pdk,tradefed" remote="DsLp-test" >
+  <project path="build" name="platform_build" revision="lollipop-mr1-release" groups="pdk,tradefed" remote="Dreams-Lp" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
@@ -299,7 +299,7 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="platform_frameworks_native" revision="lollipop-mr1-release" groups="pdk" remote="DsLp-test" />
+  <project path="frameworks/native" name="platform_frameworks_native" revision="lollipop-mr1-release" groups="pdk" remote="Dreams-Lp" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
@@ -312,11 +312,11 @@
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ims" name="platform/frameworks/opt/net/ims" groups="frameworks_ims,pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" revision="lollipop-mr1-release" groups="pdk" remote="DsLp-test" />
+  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" revision="lollipop-mr1-release" groups="pdk" remote="Dreams-Lp" />
   <project path="frameworks/opt/net/ethernet" name="platform/frameworks/opt/net/ethernet" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" groups="pdk-cw-fs" />
   <project path="frameworks/opt/setupwizard" name="platform/frameworks/opt/setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" revision="lollipop-mr1-release" groups="pdk" remote="DsLp-test" />
+  <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" revision="lollipop-mr1-release" groups="pdk" remote="Dreams-Lp" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" groups="pdk-cw-fs" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" groups="pdk-cw-fs" />
@@ -405,7 +405,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_settings" revision="lollipop-mr1-release" remote="DsLp-test" />
+  <project path="packages/apps/Settings" name="platform_packages_apps_settings" revision="lollipop-mr1-release" remote="Dreams-Lp" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
