@@ -15,6 +15,9 @@
 
  <remote name="manumanfred"
            fetch="https://github.com/manumanfred/" />
+           
+ <remote name="percy-g2"
+           fetch="https://github.com/percy-g2" />
 
  <remote name="CyanogenMod"
            fetch="https://github.com/CyanogenMod/" />
