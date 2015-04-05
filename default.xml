@@ -520,5 +520,9 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   <project path="vendor/ds" name="android_vendor_ds" revision="lollipop" remote="Dreams-Lp" />
+  <!-- Moto E -->
+  <project path="device/motorola/condor" name="android_device_motorola_condor" revision="cm-12.1" remote="Dreams-Lp" />
+  <project path="kernel/motorola/msm8610" name="android_kernel_motorola_msm8610" revision="cm-12.1" remote="CyanogenMod" />
+  <project path="vendor/motorola" name="proprietary_vendor_motorola" revision="cm-12.1" remote="percy-g2" />
 
 </manifest>
