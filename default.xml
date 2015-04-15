@@ -7,9 +7,6 @@
  <remote name="Dreams-Lp"
            fetch="https://github.com/Dreams-Lp/" />
 
- <remote name="DsLp-test"
-           fetch="https://github.com/DsLp-test/" />
-
  <remote name="DreamsTuna"
            fetch="https://github.com/DreamsTuna/" />
 
