@@ -57,7 +57,7 @@
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/tuna" name="device-samsung-tuna" revision="lollipop-mr1-release" remote="manumanfred" />
   <project path="device/samsung/maguro" name="device-samsung-maguro" revision="lollipop-mr1-release" remote="manumanfred" />
-  <project path="kernel/samsung/tuna" name="omap" revision="cm-12.0" remote="manumanfred" />
+  <project path="kernel/samsung/tuna" name="kernel_omap" revision="Tuna-3.0" remote="manumanfred" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
