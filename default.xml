@@ -71,7 +71,7 @@
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" />
-  <project path="external/bluetooth/bluedroid" name="platform_external_bluetooth_bluedroid" revision="lollipop-mr1-release" groups="pdk" remote="Dreams-Lp" />
+  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/busybox" name="android_external_busybox" revision="cm-12.1" remote="CyanogenMod" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
