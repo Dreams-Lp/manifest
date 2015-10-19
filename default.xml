@@ -511,6 +511,6 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
-  <project path="vendor/ds" name="android_vendor_ds" revision="lollipop" remote="Dreams-Lp" />
+  <project path="vendor/ds" name="android_vendor_ds" revision="lollipop-mr1-release" remote="Dreams-Lp" />
 
 </manifest>
