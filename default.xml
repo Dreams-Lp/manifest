@@ -361,7 +361,7 @@
   <project path="hardware/ril" name="platform_hardware_ril" revision="lollipop-mr1-release" groups="pdk" remote="Dreams-Lp" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
-  <project path="hardware/ti/omap4" name="android_hardware_ti_omap4" revision="ifdefs" remote="Ziyann" />
+  <project path="hardware/ti/omap4" name="android_hardware_ti_omap4" revision="ifdefs" remote="manumanfred" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
   <project path="hardware/ti/omap4xxx" name="platform_hardware_ti_omap4xxx" revision="lollipop-mr1-fi-release" remote="Dreams-Lp" />
   <project path="libcore" name="platform/libcore" groups="pdk" />
